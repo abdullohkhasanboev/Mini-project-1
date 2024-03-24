@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  display: flex;
+  padding: 1rem;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(3, 3, 6);
+  color: white;
+}
+ul li {
+  list-style: none;
+}
+.hero {
+  background-image: url(../foto/tropical-leaves-background-for-zoom_23-2148580778.avif);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.hero h2 {
+  text-align: center;
+  margin: 2rem;
+}
+.hero button {
+  padding: 1rem 2rem;
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+.hero button:hover {
+  background-color: #fff;
+  color: black;
+}
+/* section intro */
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro-img img {
+  max-width: 100%;
+}
+.intro-img {
+  flex: 1 1 30rem;
+}
+.intro-text {
+  flex: 1 1 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro-text p {
+  padding: 0.75rem;
+}
